@@ -1,0 +1,7 @@
+New text file opened and writing the content
+
+list1 = [2, 1, 3, 0, 5, 4]
+for i in range(0, len(list1)-1):
+    for j in range(1, len(list1)-1):
+        if list1[i] + list1[j] == 5:
+            print(list1[i], list1[j])
