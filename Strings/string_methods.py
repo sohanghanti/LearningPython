@@ -29,6 +29,7 @@ for r in range(len(str1)-1, -1, -1):
 
 print(newStr)
 
+print(str1[2])
 
 l2 = str1.split(' ')
 print(l2)

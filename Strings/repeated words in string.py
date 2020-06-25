@@ -18,10 +18,10 @@ print(values)
 maxRepeat = []
 for k, v in repeat.items():
     if v == max(values):
-        maxRepeat.append(k+ " : " + str(v))
+        maxRepeat.append(k + " : " + str(v))
 
 print(maxRepeat)
-print(sorted(maxRepeat))
+print("   ".join(sorted(maxRepeat)))
 
 
 
