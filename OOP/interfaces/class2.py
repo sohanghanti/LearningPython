@@ -1,5 +1,4 @@
-from Interface import Implements, Interface
-
+from Interface import Implements
 # python does not deliberately supports interface,
 # as it is already supporting multiple inheritance
 # though it has a package 'interface' from which we can achieve the implementation
@@ -18,7 +17,7 @@ class myInterface(Interface):
         print("m3")
 
 
-class myClass(Implements(myInterface)):
+class myClass(Implements):
     def m1(self):
         print("m1")
 

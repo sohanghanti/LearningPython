@@ -13,6 +13,7 @@ mySheet.cell(2, 2).value = 'Learning Excel'
 wb.save('newlyCreatedExcel.xlsx')
 
 wb.create_sheet('newSheet')
+
 wb.save('newlyCreatedExcel.xlsx')
 
 wb.create_sheet(index=0, title='moreSheet')

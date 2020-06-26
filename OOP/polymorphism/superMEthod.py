@@ -16,3 +16,4 @@ class son(father):
 
 
 s = son()
+s.show()

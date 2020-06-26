@@ -6,8 +6,7 @@ sampleDict = {
 
 }
 
-for k in sampleDict.keys():
-    if k == 'name':
-        sampleDict.keys() - k
+keysToRemove = ["name", "salary"]
 
+sampleDict = {k: sampleDict[k] for k in sampleDict.keys() - keysToRemove}
 print(sampleDict)
