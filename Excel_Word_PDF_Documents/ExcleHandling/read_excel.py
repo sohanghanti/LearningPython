@@ -16,8 +16,12 @@ print(lst_sheets)
 sht1 = lst_sheets[0]
 print(sht1)
 mySheet = workbook[sht1]
-print(type(mySheet))
 
+print(type(mySheet))
+row_count = mySheet.max_row
+column_count = mySheet.max_column
+print(row_count)
+print(column_count)
 # read the value from particular cell
 print(mySheet['A1'].value)
 
