@@ -31,10 +31,9 @@ class class2(class1):
         return a
 
 
-
-
 c = class2()
 val1 = c.method1(2, 4)
 val2 = c.method2(2, 4)
+
 print(val1)
 print(val2)

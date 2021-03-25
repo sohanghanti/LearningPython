@@ -1,8 +1,7 @@
-
 sampleDict = {
-  'Physics': 82,
-  'Math': 65,
-  'history': 75
+    'Physics': 82,
+    'Math': 65,
+    'history': 75
 }
 #
 # lst1 = []
@@ -14,6 +13,8 @@ sampleDict = {
 #     print(k)
 
 
-print("".join([k for k, v in sampleDict.items() if v == min([v for v in sampleDict.values()])]))
+# print("".join([k for k, v in sampleDict.items() if v == min([v for v in sampleDict.values()])]))
 
+
+print(''.join([k for k, v in sampleDict.items() if v == min([v for v in sampleDict.values()])]))
 

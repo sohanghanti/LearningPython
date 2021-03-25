@@ -4,6 +4,7 @@ from Interface import Implements
 # though it has a package 'interface' from which we can achieve the implementation
 # in an interface, all the defined methods are abstract
 # the subclass implementing inheritance has to implement these abstract classes
+from zope.interface import Interface
 
 
 class myInterface(Interface):

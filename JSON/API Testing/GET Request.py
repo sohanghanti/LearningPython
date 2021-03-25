@@ -4,8 +4,9 @@ import jsonpath
 
 baseUrl = 'https://reqres.in'
 req = '/api/users?page=2'
+payload = {'abc':'123'}
 
-response = requests.get(baseUrl + req)
+response = requests.get(baseUrl + req, params=payload)
 print(response)
 print(response.headers)
 print('###################################')

@@ -9,19 +9,20 @@ for i in arrStr1:
 
 print(repeat)
 
-values = []
-for v in repeat.values():
-    values.append(v)
-
-print(values)
-
-maxRepeat = []
-for k, v in repeat.items():
-    if v == max(values):
-        maxRepeat.append(k + " : " + str(v))
-
-print(maxRepeat)
-print("   ".join(sorted(maxRepeat)))
+#
+# values = []
+# for v in repeat.values():
+#     values.append(v)
+#
+# print(values)
+#
+# maxRepeat = []
+# for k, v in repeat.items():
+#     if v == max(values):
+#         maxRepeat.append(k + " : " + str(v))
+#
+# print(maxRepeat)
+# print("   ".join(sorted(maxRepeat)))
 
 
 

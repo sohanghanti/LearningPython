@@ -20,7 +20,10 @@ mapped = list(zip(name, roll_no, marks))
 print(mapped)
 
 
+lst = [1, 4, 2, 6, 9, 3, 0]
 
+print(lst[-1:0])
+print(lst[2:-2])
 
 
 

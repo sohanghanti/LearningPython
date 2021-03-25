@@ -6,6 +6,7 @@ sampleDict = {
 
 }
 
+
 # keysToRemove = ["name", "salary"]
 #
 # sampleDict = {k: sampleDict[k] for k in sampleDict.keys() - keysToRemove}

@@ -3,9 +3,12 @@ import jsonpath
 import requests
 
 url = 'https://reqres.in/api/users/2'
-file = open(r'C:\pyCharmProjects\learningPython\JSON\API Testing\putReq.json','r')
+file = open('C:\\Users\\sghanti\\PycharmProjects\\LearningPython\\JSON\\API Testing\\postReq.json', 'r')
 req = file.read()
+print('file_read', req)
+
 json_req = json.loads(req)
+print('json req', json_req)
 
 response = requests.put(url, json_req)
 print(response.text)
